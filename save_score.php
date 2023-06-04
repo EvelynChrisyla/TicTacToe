@@ -1,8 +1,8 @@
 <?php
-$servername = "database-5.cqgapuqaeazu.us-east-1.rds.amazonaws.com";
+$servername = "database-6.cqgapuqaeazu.us-east-1.rds.amazonaws.com";
 $username = "postgres";
 $password = "admin1234";
-$dbname = "tictactoe";
+$dbname = "databasetictactoe";
 $port = 5432; 
 
 
