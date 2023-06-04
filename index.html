@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+  <div id="game">
+    <div id="board">
+      <div class="cell" onclick="performMove(0)"></div>
+      <div class="cell" onclick="performMove(1)"></div>
+      <div class="cell" onclick="performMove(2)"></div>
+      <div class="cell" onclick="performMove(3)"></div>
+      <div class="cell" onclick="performMove(4)"></div>
+      <div class="cell" onclick="performMove(5)"></div>
+      <div class="cell" onclick="performMove(6)"></div>
+      <div class="cell" onclick="performMove(7)"></div>
+      <div class="cell" onclick="performMove(8)"></div>
+    </div>
+    <div id="result"></div>
+    <form id="scoreForm" action="save_score.php" method="POST">
+      <input type="text" id="nameInput" name="name" placeholder="Enter your name" required>
+      <input type="hidden" id="scoreInput" name="score">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
